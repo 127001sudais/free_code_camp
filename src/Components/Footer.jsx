@@ -1,7 +1,9 @@
+import TwitterIcon from '@mui/icons-material/Twitter';
+
 export default function Footer() {
   return (
-    <footer>
-      <small>2022 bot01 development</small>
-    </footer>
+    <div className="footer">
+      <TwitterIcon/>
+    </div>
   );
 }

@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-import Navbar from "./Components/Navbar"
-import MainContent from "./Components/MainContent"
-import Footer from "./Components/Footer"
+import Navbar from "./Components/Navbar";
+import MainContent from "./Components/MainContent";
+import Footer from "./Components/Footer";
 
 function App2() {
   return (
@@ -15,17 +15,10 @@ function App2() {
       <MainContent />
       <Footer />
     </div>
-  )
+  );
 }
 
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App2 />
-
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(App2, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
